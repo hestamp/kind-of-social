@@ -17,7 +17,7 @@ const PostFilter = ({ filter, setFilter, limit, setLimit }) => {
           margin: '10px 0',
         }}
       >
-        <MySelect
+        {/* <MySelect
           value={limit}
           onChange={(selectedLimit) => setLimit(selectedLimit)}
           defaultValue="List"
@@ -26,7 +26,7 @@ const PostFilter = ({ filter, setFilter, limit, setLimit }) => {
             { value: '20', name: '20' },
             { value: '50', name: '50' },
           ]}
-        />
+        /> */}
         <MySelect
           value={filter.sort}
           onChange={(selectedSort) =>

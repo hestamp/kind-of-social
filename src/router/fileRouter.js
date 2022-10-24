@@ -1,4 +1,3 @@
-import { Navigate } from "react-router-dom";
 import About from "../pages/About";
 import Login from "../pages/Login";
 import NoPage from "../pages/NoPage";
@@ -17,5 +16,5 @@ export const privateRoutes = [
 export const publicRoutes = [
   {path: '/login', element: Login},
   {path: '/about', element: About},
-  {path: '*', element: Navigate},
+  {path: '*', element: Login},
 ]

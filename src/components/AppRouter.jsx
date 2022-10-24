@@ -22,7 +22,7 @@ export default function AppRouter() {
   <Routes>
     {publicRoutes.map ((route, index) => {
        return (
-      <Route key={index} path={route.path} element={<route.element to="/login" replace />}></Route>)
+      <Route key={index} path={route.path} element={<route.element />}></Route>)
     })}
     </Routes>
   )
